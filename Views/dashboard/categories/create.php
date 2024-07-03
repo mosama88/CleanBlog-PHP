@@ -42,13 +42,38 @@
                 <div class="container-fluid">
 
 
+                    <div class="row">
+                        <!-- left column -->
+                        <div class="col-md-6 mx-auto">
+                            <!-- general form elements -->
+                            <div class="card card-primary">
+                                <div class="card-header">
+                                    <h3 class="card-title">أضافة منتج</h3>
+                                </div>
+                                <!-- /.card-header -->
+                                <!-- form start -->
+                                <form role="form">
+                                    <div class="card-body">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">أضافة منتج</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="أضف منتجك">
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button type="submit" class="btn btn-primary">تأكيد</button>
+                                    </div>
+                            </div>
+                            <!-- /.card-body -->
+
+
+                            </form>
+                        </div>
+                        <!-- /.card -->
 
 
 
 
-
-
-                </div><!-- /.container-fluid -->
+                    </div><!-- /.container-fluid -->
             </section>
             <!-- /.content -->
         </div>

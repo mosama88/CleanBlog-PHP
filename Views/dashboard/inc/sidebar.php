@@ -15,12 +15,12 @@
             <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
 
-                    <li class="nav-item">
-                        <a href="<?php echo URL . "views/dashboard/index.php";?>" class="nav-link active">
-                            <i class="nav-icon fas fa-tachometer-alt"></i>
-                            <p>لوحة التحكم</p>
-                        </a>
-                    </li>
+            <li class="nav-item">
+                <a href="<?php echo URL . "views/dashboard/index.php"; ?>" class="nav-link active">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>لوحة التحكم</p>
+                </a>
+            </li>
 
             <li class="nav-item has-treeview">
                 <a href="#" class="nav-link">
@@ -32,18 +32,18 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="pages/layout/top-nav.html" class="nav-link">
-                            <i class="far fa-circle nav-icon"></i>
-                            <p>أضافة منتج</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="pages/layout/boxed.html" class="nav-link">
+                        <a href="<?php echo URL . "views/dashboard/categories/index.php" ?>" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>عرض الكل</p>
                         </a>
                     </li>
-       
+                    <li class="nav-item">
+                        <a href="<?php echo URL . "views/dashboard/categories/create.php" ?>" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>أضافة منتج</p>
+                        </a>
+                    </li>
+
                 </ul>
             </li>
             <li class="nav-item has-treeview">
