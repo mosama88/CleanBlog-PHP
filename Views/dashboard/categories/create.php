@@ -52,11 +52,11 @@
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form role="form">
+                                <form role="form" action="<?php echo URL . "Controllers/dashboard/categories/store.php"; ?>" method="POST">
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">أضافة منتج</label>
-                                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="أضف منتجك">
+                                            <input type="text" name="name" class="form-control" id="exampleInputEmail1" placeholder="أضف منتجك">
                                         </div>
                                     </div>
                                     <div class="card-footer">
